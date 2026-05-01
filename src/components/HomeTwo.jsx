@@ -1,7 +1,8 @@
 import React, { useEffect, useRef } from 'react'
 import pdf from "../pdf/resume.pdf"
-import img from './images/download.jpeg'
+import img from './images/pic.png'
 import Typed from "typed.js"
+// import umair from "./data"
 
 
 const HomeTwo = () => {
