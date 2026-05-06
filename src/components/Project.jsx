@@ -1,62 +1,51 @@
-
 import React from "react";
-import project from "./data/projects.json";
+import imgok from "./images/ooo.webp";
 
 const Projects = () => {
   return (
-    <>
-      <div className="container projects my-3" id="projects">
-        <h1 className="hider">PROJECTS</h1>
-        <div className="yes">
-          {project.map((data) => (
-            <>
-              <div
-                key={data.id}
-                className="my-5 col-sm-6 col-md-4 col-lg-3 mx-4"
-              >
-                <div
-                  className="card bg-dark text-light"
-                  style={{
-                    width: "18rem",
-                    border: "1px solid yellow",
-                    boxShadow: "5px 5px 10px 10px rgba(184, 188, 178, 0.5)",
-                    background:"black"
-                  }}
-                  data-aos="flip-right"
-                  data-aos-duration="2000"
-                >
-                  <div className="img d-flex justify-content-center align-content-center p-3">
-                    <img
-                      src={data.imageSrc}
-                      className="project"
-                      alt="..."
-                      style={{
-                        width: "250px",
-                        height: "200px",
-                        borderRadius: "10px",
-                    
-                        
-                        
-                      }}
-                    />
-                  </div>
-                  <div className="card-body text-center">
-                    <h5 className="card-title">{data.title}</h5>
-                    <p className="card-text">{data.description}</p>
-                    <a href={data.demo} className="btn btn-primary mx-3" target="blank">
-                      Demo
-                    </a>
-                    <a href={data.source} className="btn btn-warning" target="blank">
-                      Code
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </>
-          ))}
+    <div className="container projects my-3" id="projects">
+      <h1 className="hider">EXPERIENCE</h1>
+
+      <div className="d-flex justify-content-center my-5">
+        <div
+          className="card bg-dark text-light"
+          style={{
+            width: "700px", // ✅ width increase
+            border: "1px solid yellow",
+            boxShadow: "5px 5px 10px rgba(184, 188, 178, 0.5)",
+            background: "black",
+          }}
+        >
+          {/* FLEX CONTAINER */}
+          <div className="d-flex align-items-center">
+
+            {/* LEFT SIDE TEXT */}
+            <div className="card-body">
+              <h3 className="card-title">6 Months Experience</h3>
+
+              <p className="card-text">
+                I have 6 months of experience working as a Frontend Developer,
+                where I built responsive user interfaces using React, Tailwind CSS,
+                and JavaScript. I also worked with APIs and improved UI/UX for better performance.
+              </p>
+            </div>
+
+            {/* RIGHT SIDE IMAGE */}
+            <img
+              src={imgok}
+              alt="Experience"
+              style={{
+                width: "300px",
+                height: "100%",
+                objectFit: "cover",
+                borderTopRightRadius: "5px",
+                borderBottomRightRadius: "5px",
+              }}
+            />
+          </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -1,41 +1,93 @@
 [
   {
     "id": 1,
-    "role": "Senior Software Development Engineer SDE - II",
-    "organisation": "Google",
-    "startDate": "Sept, 2023",
-    "endDate": "Present",
-    "location": "CA,United State",
-    "experiences": [
-      "Worked on Google Gmail",
-      "Worked with the Google Bard Team"
+    "role": "CRUD Application",
+    "organisation": "Personal Project",
+    "startDate": "Nov, 2025",
+    "endDate": "December 2025",
+    "location": "Lahore, Pakistan",
+    "experience": [
+      "Developed a full CRUD (Create, Read, Update, Delete) application",
+      "Implemented data management and user interaction features"
     ],
-    "imageSrc": "company/google.png"
+    "imageSrc": "https://img.icons8.com/color/480/database.png"
   },
   {
     "id": 2,
-    "role": "Software Development Engineer SDE - I",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2022",
-    "endDate": "Aug, 2023",
-    "location": "London, UK",
-    "experiences": [
-      "Worked on Windows 10 terminal",
-      "Worked on Window 11 Upcoming features"
+    "role": "Music Player",
+    "organisation": "Personal Project",
+    "startDate": "October, 2025",
+    "endDate": "November 2025",
+    "location": "Lahore, Pakistan",
+    "experience": [
+      "Built a responsive music player interface",
+      "Added play, pause, next, and previous functionalities"
     ],
-    "imageSrc": "company/microsoft.png"
+    "imageSrc": "https://img.icons8.com/color/480/musical-notes.png"
   },
   {
     "id": 3,
-    "role": "Software Development Engineer - Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2021",
-    "endDate": "Jun, 2022",
-    "location": "Bengluru, India",
-    "experiences": [
-      "Worked on Nextflix payment system",
-      "Helped to create UI for video player"
+    "role": "Todo List App",
+    "organisation": "Personal Project",
+    "startDate": "August, 2025",
+    "endDate": "October 2025",
+    "location": "Lahore, Pakistan",
+    "experience": [
+      "Created a task management application",
+      "Implemented add, delete, and mark-as-complete features"
     ],
-    "imageSrc": "company/netflix.png"
+    "imageSrc": "https://img.icons8.com/color/480/todo-list.png"
+  },
+  {
+    "id": 4,
+    "role": "Quiz Application",
+    "organisation": "Personal Project",
+    "startDate": "January, 2026",
+    "endDate": " January, 2026",
+    "location": "Lahore, Pakistan",
+    "experience": [
+      "Developed an interactive quiz system",
+      "Added scoring and result calculation functionality"
+    ],
+    "imageSrc": "https://img.icons8.com/color/480/test-passed.png"
+  },
+  {
+    "id": 5,
+    "role": "Tic Tac Toe Game",
+    "organisation": "Personal Project",
+    "startDate": "January, 2026",
+    "endDate": "January, 2026",
+    "location": "Lahore, Pakistan",
+    "experience": [
+      "Built a two-player Tic Tac Toe game",
+      "Implemented game logic and win detection"
+    ],
+    "imageSrc": "https://img.icons8.com/color/480/controller.png"
+  },
+  {
+    "id": 6,
+    "role": "Memory Game",
+    "organisation": "Personal Project",
+    "startDate": "February, 2026",
+    "endDate": "February, 2026",
+    "location": "Lahore, Pakistan",
+    "experience": [
+      "Developed a card matching memory game",
+      "Improved user interaction and game logic"
+    ],
+    "imageSrc": "https://img.icons8.com/color/480/brain.png"
+  },
+  {
+    "id": 7,
+    "role": "Snake Game",
+    "organisation": "Personal Project",
+    "startDate": "February, 2026",
+    "endDate": "February, 2026",
+    "location": "Lahore, Pakistan",
+    "experience": [
+      "Built a classic snake game",
+      "Implemented movement controls and score tracking"
+    ],
+    "imageSrc": "https://img.icons8.com/color/480/game.png"
   }
 ]
